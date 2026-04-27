@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SRM Test Suite" verbose="1" parallel="false">
+
+    <!-- ✅ Register Listener -->
+    <listeners>
+        <listener class-name="com.srm.listeners.TestListener"/>
+    </listeners>
+
+    <test name="ExpandTestingModules">
+
+        <!-- ✅ Make sure tests are picked correctly -->
+        <classes>
+            <class name="com.srm.tests.AlertTest"/>
+            <class name="com.srm.tests.AuthTest"/>
+            <class name="com.srm.tests.DynamicelementsTest"/>
+            <class name="com.srm.tests.ForminteractionTest"/>
+            <class name="com.srm.tests.NotesTest"/>
+        </classes>
+
+    </test>
+
+</suite>
